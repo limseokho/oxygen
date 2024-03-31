@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="MainActivity">
+
+    <TextView
+        android:id="@+id/heartRateTextView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/oxygenSaturationTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="맥박수: " />
+
+    <TextView
+        android:id="@+id/oxygenSaturationTextView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="산소 포화도: " />
+
+
+
+</LinearLayout>
